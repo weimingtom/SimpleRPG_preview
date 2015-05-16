@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+see D:\ugame\src\as3\Novel\novel_koiroma
+-->
+<game>
+	<head>
+	    <title></title>
+	    <description></description>
+	    <init ref=""/>
+	    <init_background file=""/>
+	    <init_bgm file=""/>
+	</head>
+	
+    <scenario name="load">
+        <event type="progress">
+            <visible value="true"/>
+        </event>
+	    <event type="load_font">
+	        <storage prename="data/Fonts/hanzi"/>
+	    </event>
+	    <event type="load_map">
+	    	<storage file="data/maps/test2.tmx" 
+	    	    path="data/maps"/>
+	    </event>
+	    <event type="load_sprite_pack">
+	    	<storage file="data/sprites/spritepack.atlas"/>
+	    </event>
+	    <event type="player">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    name="ghost"/>
+	    </event>
+	    <event type="text_dialog">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    name="menuskin"/>
+	    </event>
+	    <event type="button">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    down="Button_BabyBlue_Down" 
+	    	    up="Button_BabyBlue_Normal" 
+	    	    id="btnMenu0"/>
+	    </event>
+		<event type="button">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    down="Button_BabyBlue_Down" 
+	    	    up="Button_BabyBlue_Normal" 
+	    	    id="btnMenu1"/>
+	    </event>
+	    <event type="button">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    down="Button_BabyBlue_Down" 
+	    	    up="Button_BabyBlue_Normal" 
+	    	    id="btnMenu2"/>
+	    </event>
+	    <event type="button">
+	    	<item file="data/sprites/spritepack.atlas" 
+	    	    down="Button_BabyBlue_Down" 
+	    	    up="Button_BabyBlue_Normal" 
+	    	    id="btnMenu3"/>
+	    </event>
+	    <event type="load_pixmap">
+	    	<storage file="data/pictures/bg004.jpg"/>
+	    </event>
+	    <event type="load_pixmap">
+	    	<storage file="data/pictures/Charctor.png"/>
+	    </event>
+	    <event type="load_pixmap">
+	    	<storage file="data/pictures/TatamiRoom.png"/>
+	    </event>
+	    <event type="load_pixmap">
+	    	<storage file="data/pictures/Character-Ako.png"/>
+	    </event>
+        <event type="progress">
+            <visible value="false"/>
+        </event>
+	    <event type="jump">
+	      	<goto ref="init0"/>
+	    </event>
+    </scenario>	
+	
+    <scenario name="init0">
+        <event type="background">
+	      	<item file="data/pictures/bg004.jpg"/>
+	    </event>
+	    <event type="character"/>
+	    <event type="message"/>
+	    <event type="map"/>
+        <event type="menu">
+            <item0>开始游戏</item0>
+            <item1 ref="map0">进入地图</item1>
+            <item2 ref="extra">鉴赏</item2>
+            <item3 ref="exit">退出</item3>
+        </event>
+	    <event type="background">
+	      	<item file="data/pictures/bg004.jpg"/>
+	    </event>
+	    <event type="character">
+	      	<center file="data/pictures/Charctor.png" transition="override"/>
+	    </event>
+        <event type="message">
+            <talker>勇者</talker> 
+            <body>你好！我是勇者。</body> 
+        </event>
+	    <event type="background">
+	      	<item file="data/pictures/TatamiRoom.png"/>
+	    </event>
+	    <event type="character">
+	      	<center file="data/pictures/Character-Ako.png" transition="override"/>
+	    </event>
+        <event type="message">
+            <talker>勇者</talker> 
+            <body>这是测试文本</body> 
+        </event>
+        <event type="menu">
+            <item1 ref="map0">进入地图</item1>
+            <item2 ref="init0">回到主菜单</item2>
+        </event>
+    </scenario>
+    
+    <scenario name="map0">
+        <event type="background"/>
+	    <event type="character"/>
+	    <event type="message"/>
+	    <event type="menu"/>
+        <event type="map">
+            <storage file="data/maps/test2.tmx"/>
+        </event>
+    </scenario>
+</game>

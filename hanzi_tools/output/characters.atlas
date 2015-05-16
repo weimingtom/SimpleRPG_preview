@@ -1,0 +1,103 @@
+
+characters.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+click
+  rotate: false
+  xy: 1, 1
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+anim
+  rotate: false
+  xy: 63, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 0
+anim
+  rotate: false
+  xy: 97, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 1
+anim
+  rotate: false
+  xy: 131, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: 2
+blue
+  rotate: false
+  xy: 165, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hero
+  rotate: false
+  xy: 165, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+hero_sword
+  rotate: false
+  xy: 199, 29
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+archer
+  rotate: false
+  xy: 63, 1
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+cylinderwide
+  rotate: false
+  xy: 93, 1
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+fighter
+  rotate: false
+  xy: 123, 1
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+healer
+  rotate: false
+  xy: 153, 1
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+wizard
+  rotate: false
+  xy: 183, 1
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+cylinder
+  rotate: false
+  xy: 213, 10
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+default
+  rotate: false
+  xy: 233, 45
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1

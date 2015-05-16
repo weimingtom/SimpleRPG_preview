@@ -1,0 +1,82 @@
+
+maptiles.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+hex
+  rotate: false
+  xy: 1, 206
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 0
+hex
+  rotate: false
+  xy: 1, 165
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 1
+hex
+  rotate: false
+  xy: 49, 206
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 2
+hex
+  rotate: false
+  xy: 1, 124
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 3
+hex
+  rotate: false
+  xy: 49, 165
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 4
+hex
+  rotate: false
+  xy: 1, 83
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 5
+hex
+  rotate: false
+  xy: 49, 124
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 6
+hex
+  rotate: false
+  xy: 1, 42
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 7
+hex
+  rotate: false
+  xy: 49, 83
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: 8
+hex_blank
+  rotate: false
+  xy: 1, 1
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1
+hex_template
+  rotate: false
+  xy: 49, 42
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1

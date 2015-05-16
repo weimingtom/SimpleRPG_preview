@@ -1,0 +1,61 @@
+
+spritepack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Button_BabyBlue_Down
+  rotate: false
+  xy: 260, 292
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+Button_BabyBlue_Hover
+  rotate: false
+  xy: 383, 324
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+Button_BabyBlue_Normal
+  rotate: false
+  xy: 2, 2
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+Button_White_Down
+  rotate: false
+  xy: 2, 46
+  size: 121, 30
+  orig: 121, 30
+  offset: 0, 0
+  index: -1
+Button_White_Hover
+  rotate: false
+  xy: 260, 304
+  size: 121, 30
+  orig: 121, 30
+  offset: 0, 0
+  index: -1
+Button_White_Normal
+  rotate: false
+  xy: 2, 14
+  size: 121, 30
+  orig: 121, 30
+  offset: 0, 0
+  index: -1
+ghost
+  rotate: false
+  xy: 2, 78
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+menuskin
+  rotate: false
+  xy: 125, 52
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1

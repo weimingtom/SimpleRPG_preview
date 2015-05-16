@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <head>
+    <title>&#12471;&#12473;&#12486;&#12512;&#32057;&#20171;</title>
+    <description>&#12371;&#12428;&#12399;&#12302;&#24651;&#25991;&#12525;&#12510;&#12531;&#12481;&#12459;&#12303;&#20316;&#21697;&#32057;&#20171;&#12506;&#12540;&#12472;&#12391;&#20844;&#38283;&#12373;&#12428;&#12427;&#12289;&#12498;&#12525;&#12452;&#12531;&#12383;&#12385;&#12395;&#12424;&#12427;&#12466;&#12540;&#12512;&#12471;&#12473;&#12486;&#12512;&#12398;&#12481;&#12517;&#12540;&#12488;&#12522;&#12450;&#12523;&#65288;&#35299;&#35500;&#65289;&#12391;&#12377;&#12290;</description>
+    <init ref="init0"/>
+    <init_background file="./bg/b0100"/>
+    <init_bgm file="./bgm/fnosound"/>
+  </head>
+  <scenario name="init0">
+    <event type="background">
+      <storage file="./bg/b0301"/>
+    </event>
+    <event type="bgm">
+      <storage file="./bgm/m020"/>
+    </event>
+    <event type="character">
+      <center file="./character/caa05" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="true" file=""/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="true" file=""/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#8230;&#8230;&#8230;&#8230;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="true" file=""/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#8230;&#8230;&#8230;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cea34" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a035"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12362;&#12356;&#12362;&#12356;&#12289;&#26708;&#26775;&#12290;\n&#12288;&#20309;&#12434;&#12412;&#12435;&#12420;&#12426;&#31361;&#12387;&#31435;&#12387;&#12390;&#12356;&#12427;&#12435;&#12384;&#12356;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa34" transition="override"/>
+      <right_center file="./character/cea34" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a031"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12360;&#65311;&#12288;&#8230;&#8230;&#12354;&#12289;&#12354;&#12428;&#65311;&#12288;&#12418;&#12375;&#12363;&#12375;&#12390;\n&#12288;&#12418;&#12358;&#22987;&#12414;&#12387;&#12390;&#12427;&#12398;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa34" pos="lc" transition="flash"/>
+      <right_center file="./character/cea03" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a036"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12358;&#12435;&#12290;&#12418;&#12375;&#12363;&#12379;&#12378;&#12392;&#12418;&#12289;&#12418;&#12358;&#22987;&#12414;&#12387;&#12390;&#12356;&#12427;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa27" pos="lc" transition="flash"/>
+      <right_center file="./character/cea03" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a032"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12431;&#12289;&#12360;&#12387;&#12392;&#12289;&#12376;&#12419;&#12354;&#12289;&#12381;&#12398;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa00" pos="lc" transition="flash"/>
+      <right_center file="./character/cea03" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a033"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12399;&#12289;&#21021;&#12417;&#12414;&#12375;&#12390;&#12289;&#31179;&#26376;&#26708;&#26775;&#12392;&#30003;&#12375;&#12414;&#12377;&#12290;\n&#12288;&#26481;&#37117;&#32020;&#33775;&#22899;&#23398;&#38498;&#12392;&#12356;&#12358;&#23398;&#26657;&#12395;&#36890;&#12387;&#12390;&#12356;&#12427;\n&#12288;&#22899;&#23398;&#29983;&#12391;&#12377;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa00" pos="lc" transition="flash"/>
+      <right_center file="./character/cea07" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a037"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12358;&#12540;&#12435;&#12289;&#31505;&#38996;&#12364;&#30828;&#12356;&#12394;&#12290;\n&#12288;&#12418;&#12358;&#23569;&#12375;&#27671;&#27005;&#12395;&#12375;&#12419;&#12409;&#12426;&#12394;&#12424;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa24" pos="lc" transition="flash"/>
+      <right_center file="./character/cea07" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a034"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12302;&#27671;&#27005;&#12395;&#12303;&#12387;&#12390;&#35328;&#12431;&#12428;&#12390;&#12418;&#12289;\n&#12288;&#12371;&#12358;&#12356;&#12358;&#12398;&#12387;&#12390;&#12420;&#12387;&#12401;&#12426;&#32202;&#24373;&#12375;&#12385;&#12419;&#12358;&#12431;&#12424;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa24" pos="lc" transition="flash"/>
+      <right_center file="./character/cea27" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a038"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#32202;&#24373;&#12397;&#12359;&#12290;\n&#12288;&#12381;&#12435;&#12394;&#12395;&#27083;&#12360;&#12427;&#12418;&#12398;&#12391;&#12418;&#12394;&#12356;&#12384;&#12429;&#12358;&#12395;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa24" pos="lc" transition="flash"/>
+      <right_center file="./character/cea16" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a039"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#20181;&#26041;&#12394;&#12356;&#12290;&#12371;&#12371;&#12399;&#12402;&#12392;&#12388;&#12289;\n&#12288;&#20693;&#12398;&#25163;&#12391;&#21531;&#12398;&#32202;&#24373;&#12434;&#12411;&#12368;&#12375;&#12390;&#12354;&#12370;&#12427;&#12392;&#12375;&#12424;&#12358;&#12301;</body>
+    </event>
+    <event type="character">
+      <left file="./character/caa50" pos="lc" transition="flash"/>
+      <center file="./character/cea16" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a035"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12411;&#12368;&#12377;&#12387;&#12390;&#8230;&#8230;&#12385;&#12423;&#12387;&#12392;&#22985;&#12373;&#12435;&#65311;\n&#12288;&#20309;&#12391;&#25163;&#12434;&#12431;&#12365;&#12431;&#12365;&#12392;&#12373;&#12379;&#12394;&#12364;&#12425;&#12371;&#12387;&#12385;&#12395;\n&#12288;&#36817;&#12389;&#12356;&#12390;&#12367;&#12427;&#12398;&#8230;&#8230;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa50" pos="l" transition="flash"/>
+      <right_center file="./character/cea15" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a040"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12435;&#65311;&#12288;&#12385;&#12423;&#12356;&#12392;&#12367;&#12377;&#12368;&#12387;&#12390;&#12420;&#12428;&#12400;\n&#12288;&#32202;&#24373;&#12418;&#12411;&#12368;&#12428;&#12427;&#12384;&#12429;&#12358;&#12392;&#24605;&#12387;&#12390;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <left file="./character/cea15" pos="rc"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a036"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12420;&#12289;&#12385;&#12423;&#8230;&#8230;&#24453;&#12387;&#12390;&#12289;&#22985;&#12373;&#12435;&#12290;\n&#12288;&#22823;&#19976;&#22827;&#12289;&#12418;&#12358;&#22823;&#19976;&#22827;&#12384;&#12363;&#12425;&#8230;&#8230;&#12387;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a041"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12356;&#12420;&#12356;&#12420;&#12289;&#12414;&#12384;&#30456;&#24403;&#30828;&#12356;&#12424;&#12290;\n&#12288;&#12411;&#12425;&#12289;&#12371;&#12398;&#20693;&#12395;&#20840;&#37096;&#20219;&#12379;&#12383;&#12414;&#12360;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a037"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12402;&#12354;&#12354;&#12353;&#8230;&#8230;&#12387;&#12301;</body>
+    </event>
+    <event type="character"/>
+    <event type="character">
+      <center file="./character/cda40" transition="override"/>
+    </event>
+    <event type="jump">
+      <goto ref="init43"/>
+    </event>
+  </scenario>
+  <scenario name="init43">
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a030"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12354;&#12540;&#12418;&#12540;&#12289;&#12475;&#12531;&#12475;&#12289;\n&#12288;&#12354;&#12435;&#12414;&#12426;&#22969;&#12373;&#12435;&#12434;&#12363;&#12425;&#12363;&#12431;&#12394;&#12356;&#12398;&#12387;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda40" pos="c" transition="flash"/>
+      <right_center file="./character/cea00" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a042"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#24515;&#22806;&#12384;&#12394;&#12540;&#12289;&#20161;&#35211;&#12367;&#12435;&#12290;\n&#12288;&#20693;&#12399;&#12356;&#12383;&#12387;&#12390;&#30495;&#21091;&#12384;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda26" pos="lc" transition="flash"/>
+      <right_center file="./character/cea00" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a031"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12507;&#12531;&#12488;&#12391;&#12377;&#12363;&#12540;&#65311;\n&#12288;&#12381;&#12398;&#21106;&#12395;&#12399;&#12378;&#12356;&#12406;&#12435;&#27005;&#12375;&#12381;&#12358;&#12391;&#12375;&#12383;&#12369;&#12393;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda26" pos="lc" transition="flash"/>
+      <right_center file="./character/cea10" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a043"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12381;&#12426;&#12419;&#12289;&#30495;&#21091;&#12395;&#27005;&#12375;&#12435;&#12391;&#12356;&#12383;&#12363;&#12425;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda46" pos="lc" transition="flash"/>
+      <right_center file="./character/cea10" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a032"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12495;&#12449;&#12289;&#12414;&#12387;&#12383;&#12367;&#8230;&#8230;\n&#12288;&#22969;&#12373;&#12435;&#12289;&#12450;&#12479;&#12471;&#12383;&#12385;&#12398;&#12371;&#12392;&#12399;&#27671;&#12395;&#12375;&#12394;&#12356;&#12391;\n&#12288;&#12388;&#12389;&#12369;&#12390;&#12289;&#12388;&#12389;&#12369;&#12390;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa00" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a038"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12354;&#12289;&#12399;&#12356;&#12290;&#12381;&#12428;&#12376;&#12419;&#9472;&#9472;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa20" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a039"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#8230;&#8230;&#12371;&#12358;&#12356;&#12358;&#12398;&#12387;&#12390;&#20309;&#12434;&#35441;&#12375;&#12383;&#12425;&#12356;&#12356;\n&#12288;&#12398;&#12363;&#12375;&#12425;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cea39" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a044"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#20309;&#12387;&#12390;&#12289;&#36969;&#24403;&#12395;&#35441;&#12379;&#12400;&#12356;&#12356;&#12435;&#12376;&#12419;&#12394;&#12356;&#12363;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda02" transition="override"/>
+      <right_center file="./character/cea39" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a033"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#26222;&#36890;&#12395;&#22909;&#12365;&#12394;&#39135;&#12409;&#29289;&#12384;&#12392;&#12363;&#36259;&#21619;&#12394;&#12435;&#12363;&#12434;&#35328;&#12360;&#12400;\n&#12288;&#12356;&#12356;&#12392;&#24605;&#12356;&#12414;&#12377;&#12424;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa01" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a040"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12289;&#12381;&#12387;&#12363;&#12289;&#12354;&#12426;&#12364;&#12392;&#12358;&#12290;\n&#12288;&#25913;&#12417;&#12414;&#12375;&#12390;&#8230;&#8230;&#12371;&#12411;&#12435;&#12387;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa00" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a041"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#22909;&#12365;&#12394;&#39135;&#12409;&#29289;&#12399;&#29976;&#12356;&#12418;&#12398;&#20840;&#33324;&#12363;&#12394;&#12290;\n&#12288;&#12392;&#12367;&#12395;&#38738;&#29432;&#22530;&#12398;&#12393;&#12425;&#28988;&#12365;&#12364;&#22909;&#12365;&#12391;&#12377;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa20" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a042"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#36259;&#21619;&#12399;&#8230;&#8230;&#12360;&#12387;&#12392;&#12289;&#20309;&#12363;&#12394;&#65311;&#12288;\n&#12288;&#12362;&#33457;&#12418;&#12377;&#12427;&#12375;&#12362;&#29748;&#12418;&#12377;&#12427;&#12369;&#12393;&#12289;\n&#12288;&#12371;&#12428;&#12399;&#32722;&#12356;&#20107;&#12384;&#12363;&#12425;&#12289;&#36259;&#21619;&#12392;&#12399;&#36949;&#12358;&#12398;&#12424;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa01" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a043"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#36259;&#21619;&#12387;&#12390;&#35328;&#12360;&#12381;&#12358;&#12394;&#12398;&#12399;&#8230;&#8230;\n&#12288;&#12362;&#39080;&#21570;&#12363;&#12375;&#12425;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cea01" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a045"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12394;&#12427;&#12411;&#12393;&#12289;&#12391;&#12399;&#12379;&#12387;&#12363;&#12367;&#12384;&#12363;&#12425;\n&#12288;&#12371;&#12371;&#12356;&#12425;&#12391;&#26708;&#26775;&#12398;&#20837;&#28020;&#22580;&#38754;&#12391;&#12418;&#8212;&#8212;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda40" transition="override"/>
+      <right_center file="./character/cea01" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a034"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12354;&#12426;&#12414;&#12379;&#12435;&#12363;&#12425;&#12397;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda40" pos="lc" transition="flash"/>
+      <right_center file="./character/cea27" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a046"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12394;&#12435;&#12384;&#12289;&#28961;&#12356;&#12398;&#12363;&#12290;&#12514;&#12491;&#12479;&#12540;&#12398;&#21069;&#12398;&#30342;&#12293;&#27096;&#12418;\n&#12288;&#12373;&#12382;&#12420;&#12364;&#12387;&#12363;&#12426;&#12384;&#12429;&#12358;&#12394;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa27t" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a044"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12289;&#12381;&#12435;&#12394;&#12371;&#12392;&#35328;&#12431;&#12428;&#12390;&#12418;&#22256;&#12426;&#12414;&#12377;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa27t" pos="c" transition="flash"/>
+      <right_center file="./character/cda20" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a035"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#22969;&#12373;&#12435;&#12289;&#12475;&#12531;&#12475;&#12398;&#35328;&#12358;&#12371;&#12392;\n&#12288;&#30495;&#12395;&#21463;&#12369;&#12394;&#12367;&#12390;&#12356;&#12356;&#12391;&#12377;&#12424;&#12387;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa24" pos="lc" transition="flash"/>
+      <right_center file="./character/cda20" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a045"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12428;&#12418;&#12381;&#12358;&#12397;&#12289;&#12372;&#12417;&#12435;&#12394;&#12373;&#12356;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa17" pos="lc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a046"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12371;&#12435;&#12394;&#22985;&#12373;&#12435;&#12392;&#20108;&#20154;&#26286;&#12425;&#12375;&#12384;&#12363;&#12425;&#12289;\n&#12288;&#23478;&#12398;&#12362;&#39135;&#20107;&#12418;&#12289;&#12362;&#25475;&#38500;&#12418;&#12289;&#12362;&#27927;&#28655;&#12418;&#20840;&#37096;&#12289;\n&#12288;&#31169;&#12398;&#20181;&#20107;&#12391;&#12375;&#12383;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa00" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a047"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12302;&#12391;&#12375;&#12383;&#12303;&#12392;&#36942;&#21435;&#24418;&#12394;&#12398;&#12399;&#12289;&#25105;&#12364;&#23478;&#12391;&#23621;&#20505;&#12434;\n&#12288;&#22987;&#12417;&#12383;&#26360;&#29983;&#12373;&#12435;&#12364;&#12289;&#23478;&#20107;&#12434;&#25163;&#20253;&#12387;&#12390;&#12367;&#12428;&#12427;&#12424;\n&#12288;&#12358;&#12395;&#12394;&#12387;&#12383;&#12363;&#12425;&#12391;&#12377;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa01" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a048"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12392;&#12367;&#12395;&#12362;&#26009;&#29702;&#12399;&#12411;&#12392;&#12435;&#12393;&#20840;&#37096;&#12289;\n&#12288;&#26360;&#29983;&#12373;&#12435;&#20219;&#12379;&#12391;&#12377;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cda02" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a036"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12540;&#12384;&#12387;&#12383;&#12435;&#12384;&#65311;\n&#12288;&#30007;&#12398;&#20154;&#12364;&#21488;&#25152;&#12395;&#31435;&#12388;&#12398;&#12387;&#12390;&#12289;\n&#12288;&#12369;&#12387;&#12371;&#12358;&#29645;&#12375;&#12367;&#12394;&#12356;&#12391;&#12377;&#12363;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda02" pos="c" transition="flash"/>
+      <right_center file="./character/cea28" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a047"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#30906;&#12363;&#12395;&#29645;&#12375;&#12356;&#12363;&#12418;&#30693;&#12428;&#12394;&#12356;&#12364;&#12289;\n&#12288;&#12381;&#12371;&#12399;&#23478;&#24237;&#12398;&#20107;&#24773;&#12392;&#12356;&#12358;&#12420;&#12388;&#12391;&#8230;&#8230;\n&#12288;&#20154;&#12395;&#12399;&#21521;&#12365;&#19981;&#21521;&#12365;&#12364;&#12354;&#12427;&#12363;&#12425;&#12397;&#12359;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda12" pos="lc" transition="flash"/>
+      <right_center file="./character/cea28" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a037"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12405;&#12540;&#12435;&#12289;&#12354;&#12354;&#35211;&#12360;&#12390;\n&#12288;&#25991;&#20154;&#12367;&#12435;&#12387;&#12390;&#26009;&#29702;&#19978;&#25163;&#12394;&#12435;&#12384;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda12" pos="lc" transition="flash"/>
+      <right_center file="./character/cea24" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a048"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12356;&#12420;&#12289;&#26222;&#36890;&#12384;&#12424;&#12290;\n&#12288;&#12362;&#12415;&#12387;&#12385;&#12419;&#12435;&#12392;&#27604;&#12409;&#12428;&#12400;&#20840;&#28982;&#12384;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda30" pos="lc" transition="flash"/>
+      <right_center file="./character/cea24" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a038"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12408;&#12387;&#65311;&#12288;&#12369;&#12393;&#12302;&#21521;&#12365;&#19981;&#21521;&#12365;&#12303;&#12387;&#12390;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa40t" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a049"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12385;&#12423;&#12387;&#12392;&#22985;&#12373;&#12435;&#65311;&#12288;&#12381;&#12428;&#12376;&#12419;&#12414;&#12427;&#12391;&#12289;\n&#12288;&#12431;&#12383;&#12375;&#12364;&#26009;&#29702;&#12395;&#21521;&#12356;&#12390;&#12394;&#12356;&#12415;&#12383;&#12356;&#12376;&#12419;&#12394;&#12356;&#12290;\n&#12288;&#22985;&#12373;&#12435;&#12289;&#33258;&#20998;&#12376;&#12419;&#26009;&#29702;&#12375;&#12394;&#12356;&#12367;&#12379;&#12395;&#12540;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa40t" pos="c" transition="flash"/>
+      <right_center file="./character/cea28" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a049"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#20693;&#12364;&#26009;&#29702;&#12434;&#20316;&#12425;&#12373;&#12428;&#12427;&#12367;&#12425;&#12356;&#12384;&#12387;&#12383;&#12425;&#12289;\n&#12288;&#36855;&#12431;&#12378;&#22806;&#39135;&#12377;&#12427;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cda17" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a039"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#22969;&#12373;&#12435;&#12418;&#22823;&#22793;&#12384;&#12394;&#12353;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cda02" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a040"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12358;&#12356;&#12360;&#12400;&#12302;&#25991;&#20154;&#12367;&#12435;&#12303;&#12391;&#24605;&#12356;&#12384;&#12375;&#12383;&#12435;&#12391;&#12377;\n&#12288;&#12369;&#12393;&#12289;&#22969;&#12373;&#12435;&#12387;&#12390;&#25991;&#20154;&#12367;&#12435;&#12392;&#12393;&#12358;&#12420;&#12387;&#12390;&#30693;&#12426;\n&#12288;&#12354;&#12387;&#12383;&#12435;&#12391;&#12377;&#12363;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/cda02" pos="c" transition="flash"/>
+      <right_center file="./character/cea01" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a050"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#20693;&#12364;&#32862;&#12356;&#12383;&#12392;&#12371;&#12429;&#12395;&#12424;&#12427;&#12392;&#12289;\n&#12288;&#25991;&#12398;&#23383;&#12364;&#20986;&#20250;&#12356;&#38957;&#12395;&#26708;&#26775;&#12434;&#25276;&#12375;&#12383;&#12362;&#12375;&#12383;&#12289;\n&#12288;&#12392;&#12363;&#20309;&#12392;&#12363;&#9472;&#9472;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa44t" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a050"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#25991;&#20154;&#12373;&#12435;&#12399;&#12381;&#12435;&#12394;&#12371;&#12392;&#12375;&#12390;&#12414;&#12379;&#12435;&#12387;&#65281;\n&#12288;&#25276;&#12375;&#12390;&#12375;&#12414;&#12387;&#12383;&#12398;&#12399;&#12416;&#12375;&#12429;&#31169;&#12398;&#26041;&#12391;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cda30t" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a041"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12360;&#12360;&#12387;!?&#12288;&#22969;&#12373;&#12435;&#12364;&#25991;&#20154;&#12367;&#12435;&#12434;&#8230;!?&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa39" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a051"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12360;&#8230;&#8230;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa54t" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a052"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12354;&#12387;!?\n&#12288;&#12385;&#12289;&#36949;&#12356;&#12414;&#12377;&#65281;&#12288;&#12381;&#12358;&#12356;&#12358;&#20107;&#12376;&#12419;&#12394;&#12367;&#12390;&#12301;</body>
+    </event>
+    <event type="character"/>
+    <event type="background">
+      <storage file="./bg/ea04001"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a053"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#36947;&#12434;&#27497;&#12356;&#12390;&#12356;&#12383;&#12425;&#24613;&#12395;&#19979;&#39364;&#12398;&#40763;&#32210;&#12364;&#20999;&#12428;&#12390;&#12289;\n&#12288;&#12424;&#12429;&#12417;&#12356;&#12383;&#25293;&#23376;&#12395;&#25991;&#20154;&#12373;&#12435;&#12395;&#12406;&#12388;&#12363;&#12387;&#12390;\n&#12288;&#12375;&#12414;&#12387;&#12383;&#12435;&#12391;&#12377;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a042"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12354;&#12540;&#12289;&#12381;&#12358;&#12356;&#12358;&#20107;&#12391;&#12375;&#12383;&#12363;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a054"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12381;&#12375;&#12383;&#12425;&#12289;\n&#12288;&#25991;&#20154;&#12373;&#12435;&#12364;&#33258;&#20998;&#12398;&#25163;&#12396;&#12368;&#12356;&#12434;&#20351;&#12387;&#12390;&#12289;\n&#12288;&#31169;&#12398;&#19979;&#39364;&#12434;&#30452;&#12375;&#12390;&#12367;&#12384;&#12373;&#12387;&#12390;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a051"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12362;&#12420;&#12362;&#12420;&#12289;&#20057;&#22899;&#12394;&#38996;&#12395;&#12394;&#12387;&#12385;&#12419;&#12387;&#12390;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a055"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12387;!?&#12288;&#12381;&#12289;&#12381;&#12435;&#12394;&#12371;&#12392;&#12354;&#12426;&#12414;&#12379;&#12435;&#65281;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a043"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#12399;&#12356;&#12399;&#12356;&#12289;&#12372;&#12385;&#12381;&#12358;&#12373;&#12414;&#12387;&#12301;</body>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a056"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12358;&#12358;&#12357;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="background">
+      <storage file="./bg/b0301"/>
+    </event>
+    <event type="character">
+      <center file="./character/cea11" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a052"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12381;&#12358;&#12356;&#12358;&#12431;&#12369;&#12391;&#12289;&#19968;&#30446;&#12391;&#24651;&#12395;&#33853;&#12385;&#12383;&#26708;&#26775;&#12364;&#12289;\n&#12288;&#23487;&#28961;&#12375;&#12398;&#20027;&#20154;&#20844;&#12367;&#12435;&#12434;&#23478;&#12395;&#24341;&#12387;&#12401;&#12426;&#12371;&#12435;&#12384;\n&#12288;&#12398;&#12384;&#12387;&#12383;&#12290;&#12417;&#12391;&#12383;&#12375;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa44" transition="override"/>
+      <right_center file="./character/cea11" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a057"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#22985;&#12373;&#12435;&#12289;&#35492;&#35299;&#12434;&#25307;&#12367;&#35328;&#12356;&#26041;&#12375;&#12394;&#12356;&#12391;&#12367;&#12384;&#12373;&#12356;&#65281;\n&#12288;&#12387;&#12390;&#12356;&#12358;&#12363;&#20170;&#12289;&#12363;&#12394;&#12426;&#12399;&#12375;&#12423;&#12426;&#12414;&#12375;&#12383;&#12424;&#12397;!?&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa44t" pos="lc" transition="flash"/>
+      <right_center file="./character/cea26" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a053"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#12384;&#12356;&#12383;&#12356;&#21512;&#12387;&#12390;&#12427;&#12363;&#12425;&#12356;&#12356;&#12376;&#12419;&#12394;&#12356;&#12363;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa54" pos="lc" transition="flash"/>
+      <right_center file="./character/cea26" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a058"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12360;&#12360;&#12540;&#12540;&#12540;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cda05" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="d" file="./voice/vd001a044"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wda000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#26469;&#39321;&#12373;&#12435;</talker>
+      <body>&#12300;&#22969;&#12373;&#12435;&#12289;&#26368;&#24460;&#12395;&#19968;&#35328;&#12393;&#12382;&#12540;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa05" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a059"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12371;&#12411;&#12435;&#12387;&#8230;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa00" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a060"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#12392;&#12356;&#12358;&#12431;&#12369;&#12391;&#12289;&#26708;&#26775;&#12391;&#12375;&#12383;&#12290;\n&#12288;&#20170;&#22238;&#12399;&#12378;&#12387;&#12392;&#12354;&#12383;&#12405;&#12383;&#12375;&#12385;&#12419;&#12356;&#12414;&#12375;&#12383;&#12369;&#12393;&#12289;\n&#12288;&#20116;&#20154;&#12398;&#20013;&#12391;&#12399;&#19968;&#30058;&#12375;&#12392;&#12420;&#12363;&#12394;&#12388;&#12418;&#12426;&#12391;&#12377;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/cea00" transition="override"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a054"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#24594;&#12427;&#12392;&#19968;&#30058;&#24598;&#12356;&#12369;&#12393;&#12397;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa15" transition="override"/>
+      <right_center file="./character/cea00" pos="c" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a061"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#20309;&#12363;&#12362;&#12387;&#12375;&#12419;&#12356;&#12414;&#12375;&#12383;&#12289;&#22985;&#12373;&#12435;&#65311;&#12301;</body>
+    </event>
+    <event type="character">
+      <left_center file="./character/caa15" pos="lc" transition="flash"/>
+      <right_center file="./character/cea50" pos="rc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="e" file="./voice/ve001a055"/>
+    </event>
+    <event type="face">
+      <storage file="./face/wea000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#20808;&#29983;</talker>
+      <body>&#12300;&#8230;&#8230;&#12356;&#12289;&#12356;&#12360;&#12289;&#12394;&#12435;&#12391;&#12418;&#12394;&#12356;&#12391;&#12377;&#8230;&#12301;</body>
+    </event>
+    <event type="character">
+      <center file="./character/caa00" pos="lc" transition="flash"/>
+    </event>
+    <event type="sound">
+      <storage voice="a" file="./voice/va001a062"/>
+    </event>
+    <event type="face">
+      <storage file="./face/waa000" transition="override"/>
+    </event>
+    <event type="message">
+      <talker>&#12362;&#23330;&#12373;&#12435;</talker>
+      <body>&#12300;&#19968;&#20154;&#21069;&#12398;&#22823;&#21644;&#25771;&#23376;&#12417;&#12374;&#12375;&#12390;&#12364;&#12435;&#12400;&#12426;&#12414;&#12377;&#65281;\n&#12288;&#24540;&#25588;&#12424;&#12429;&#12375;&#12367;&#12362;&#39000;&#12356;&#12375;&#12414;&#12377;&#12397;&#12290;\n&#12288;&#8230;&#8230;&#12354;&#12426;&#12364;&#12392;&#12358;&#12372;&#12374;&#12356;&#12414;&#12375;&#12383;&#12387;&#12301;</body>
+    </event>
+  </scenario>
+</game>
